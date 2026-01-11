@@ -32,7 +32,7 @@ st.title("Cars Price Prediction App")
 new_model_year = st.number_input("Enter Model Year (e.g., 2025):", min_value=2000)
 
 # Create a DataFrame for the new model
-new_model = pd.DataFrame({"MODELS": [new_model_year]})
+new_model = pd.DataFrame({"MODEL": [new_model_year]})
 
 # Preprocess the new model data
 new_model_transformed = scaler.transform(new_model)
