@@ -26,7 +26,7 @@ model.fit(X_train, y_train)
 
 # Streamlit app
 
-st.title("Car Price Prediction App")
+st.title("Cars Price Prediction App")
 
 # User input for new model year
 new_model_year = st.number_input("Enter Model Year (e.g., 2025):", min_value=2000)
