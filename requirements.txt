@@ -1,5 +1,7 @@
+streamlit>=1.42.0
 pandas
-streamlit
 scikit-learn
-plotly
 scipy
+plotly
+altair<5.0.0
+
